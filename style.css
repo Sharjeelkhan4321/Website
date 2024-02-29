@@ -1,0 +1,1682 @@
+@font-face {
+    font-family:'apercu_mono' ;
+    src: url(apercu_mono-webfont.woff) format('woff'),
+    url(apercu_mono-webfont.woff2) format('woff2');
+}
+
+
+*{
+
+
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+
+    background-color: black;
+}
+/* NAVBAR */
+
+nav img{
+
+width: 165px;
+height: 75.41px;
+
+
+
+}
+
+
+nav{
+
+    width: 1519px;
+    height: 105px;
+    
+    background-color:black;
+    color: white;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    }
+    
+
+
+
+
+.nav{
+
+    /* background-color: aqua; */
+    width: 1516px;
+    height: 85.42px;
+position: relative;
+top: 10px;
+margin-left: 29px;
+margin-top: 8px;
+}
+
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+
+list-style: none;
+display: inline-block;
+color: white;
+
+}
+
+ul li a{
+
+text-decoration: none;
+color: white;
+padding-left: 36px;
+position: relative;
+bottom: 30px;
+left: 250px;
+font-size: 19px;
+font-family: sans-serif;
+
+}
+
+ul li button{
+
+border-style: none;
+color:white;
+display: inline-block;
+position: relative;
+bottom: 30px;
+left: 270px;
+width: 138px;
+height: 54px;
+border-radius: 35px;
+border: 1px white solid;
+background-color: black;
+margin-right: 12px;
+font-size: 16px;
+}
+
+.btn2{
+
+    
+border-style: none;
+color:white;
+display: inline-block;
+position: relative;
+bottom: 30px;
+left: 270px;
+width: 138px;
+height: 54px;
+border-radius: 35px;
+border: 1px white solid;
+background-color: #ED1C24;
+margin-right: 12px;
+}
+
+/* nav btn hover */
+
+.btn1:hover{
+
+background-color: #ED1C24;
+color: white;
+transition: 0.3s;
+}
+
+.btn2:hover{
+
+    background-color:black;
+    color: white;
+    transition: 0.3s;
+    }
+
+a:hover{
+
+    color: #ED1C24;
+}
+
+
+
+
+
+    .banner img{
+
+width: 1514px;
+height: 640px;
+position: relative;
+top: 95px;
+left: 5px;
+
+    }
+
+    /* content */
+
+    .heading{
+
+
+        /* background-color: aqua; */
+position: relative;
+top: 190px;
+font-size: 25px;
+text-align: center;
+width: 700px;
+margin: auto;
+font-family: sans-serif;
+color: white;
+letter-spacing: 4px;
+
+font-weight: 100;
+    }
+
+    .sline{
+
+/* background-color: aqua; */
+position: relative;
+top: 200px;
+text-align: center;
+font-size: 16px;
+color: white;
+word-spacing: 5px;
+    }
+
+
+    .main{
+
+
+/* border: 2px white solid; */
+height: 200px;
+margin-top: 250px;
+margin-left: 40px;
+
+margin-right: 150px;
+ 
+
+
+    }
+
+
+    .card{
+
+
+        display: inline-block;
+    }
+.main1{
+
+margin-left: 190px;
+    background-color: white;
+width: 250px;
+height: 130px;
+border-radius: 5px;
+display: inline-block;
+
+}
+
+
+
+    .main1 img{
+
+
+        width: 220px;
+        height: 90px;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-bottom: 40px;
+
+    }
+
+
+
+    .btn{
+
+
+/* background-color:aqua; */
+width: 250px;
+position: relative;
+bottom: 20px;
+
+height: 60px;
+display: inline-block;
+text-align: center;
+    }
+
+
+    .btn button{
+
+margin-top: 10px;
+        border-style: none;
+
+        background-color: black;
+position: relative;
+/* right: 35px; */
+        width: 198px;
+        height: 54px;
+        color: white;
+        border-radius: 35px;
+        border: 1px white solid;
+display: inline-block;
+    }
+
+
+
+    .card2{
+
+position: relative;
+
+width: 250px;
+height: 130px;
+left: 320px;
+bottom: 200px;
+
+
+
+
+    }
+
+
+    
+    .card3{
+
+        position: relative;
+        left: 320px;
+        bottom: 200px;
+        
+width: 250px;
+height: 130px;
+        
+        
+        
+            }
+
+            /* card button hover */
+
+            .btn button:hover{
+
+background-color: #ED1C24;
+color: white;
+transition: 0.3s;
+
+            }
+
+
+.location{
+
+width: 1283px;
+height: 1280px;
+background-color: #0F0F0F;
+position: relative;
+right: 40px;
+padding: 30px;
+border: 2px #0F0F0F solid;
+}
+
+
+.head1{
+
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.head2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    bottom: 10px;
+}
+
+.para1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+position: relative;
+bottom: 10px;
+word-spacing: 3px;
+
+}
+
+
+.transimg{
+position: relative;
+bottom: 100px;
+margin-left: 880px;
+z-index: 0;
+
+
+}
+
+.isl{
+
+/* border: 2px white solid; */
+
+width: 400px;
+height: 300px;
+position: relative;
+bottom: 560px;
+display: inline-block;
+
+}
+
+.city-n{
+
+margin-top: 10px;
+
+}
+
+.city-n p{
+
+color: #ED1C24;
+
+letter-spacing: 8px;
+
+
+}
+
+.islh1{
+
+    color: white;
+margin-top: 10px;
+font-size: 25px;
+
+}
+.adress{
+
+color: white;
+margin-top: 10px;
+word-spacing: 3px;
+line-height: 29px;
+
+}
+.islbtn button{
+
+    border-style: none;
+background-color: #0F0F0F;
+color: white;
+width: 150px;
+height: 60px;
+border-radius: 35px;margin-top: 10px;
+border: 1px white solid
+}
+
+.islbtn button:hover{
+
+background-color: #ED1C24;
+color: white;
+transition: 0.3s;
+}
+
+.loca_img{
+
+    display: inline-block;
+    position: relative;
+    bottom: 440px;
+    left: 200px;
+}
+
+
+
+
+
+
+
+.fsl{
+
+    /* border: 2px white solid; */
+    
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 790px;
+    margin-left: 600px;
+    display: inline-block;
+    
+    }
+    
+    .city-n{
+    
+    margin-top: 10px;
+    
+    }
+    
+    .city-n p{
+    
+    color: #ED1C24;
+    
+    letter-spacing: 8px;
+    
+    
+    }
+    
+    .fslh1{
+    
+        color: white;
+    margin-top: 10px;
+    font-size: 25px;
+    
+    }
+    .adress{
+    
+    color: white;
+    margin-top: 10px;
+    word-spacing: 3px;
+    line-height: 29px;
+    
+    }
+    .fslbtn button{
+    
+        border-style: none;
+    background-color: #0F0F0F;
+    color: white;
+    width: 150px;
+    height: 60px;
+    border-radius: 35px;margin-top: 10px;
+    border: 1px white solid
+    }
+    
+
+.fsl button:hover{
+
+    background-color: #ED1C24;
+    color: white;
+    transition: 0.3s;
+}
+
+    .loca_img2{
+    
+        display: inline-block;
+        position: relative;
+        bottom: 1080px;
+ 
+    }
+
+
+
+
+
+
+
+
+    .bhl{
+
+        /* border: 2px white solid; */
+        
+        width: 400px;
+        height: 300px;
+        position: relative;
+        bottom: 1160px;
+        /* margin-left: 600px; */
+        display: inline-block;
+        
+        }
+        
+        .city-n{
+        
+        margin-top: 10px;
+        
+        }
+        
+        .city-n p{
+        
+        color: #ED1C24;
+        
+        letter-spacing: 8px;
+        
+        
+        }
+        
+        .bhlh1{
+        
+            color: white;
+        margin-top: 10px;
+        font-size: 25px;
+        
+        }
+        .adress{
+        
+        color: white;
+        margin-top: 10px;
+        word-spacing: 3px;
+        line-height: 29px;
+        
+        }
+        .bhlbtn button{
+        
+            border-style: none;
+        background-color: #0F0F0F;
+        color: white;
+        width: 150px;
+        height: 60px;
+        border-radius: 35px;margin-top: 10px;
+        border: 1px white solid
+        }
+
+        .bhl button:hover{
+
+            background-color: #ED1C24;
+            color: white;
+            transition: 0.3s;
+        }
+        
+    
+        .loca_img3{
+        
+            display: inline-block;
+            position: relative;
+            bottom: 1050px;
+            left: 200px;
+     
+        } 
+
+
+
+
+
+        .branch{
+
+
+            width:1259px;
+            height: 1200px;
+/* background-color: aqua; */
+            /* border: 2px white solid; */
+
+            position: relative;
+            top: 1470px;
+        }
+
+
+.branchh{
+
+text-align: center;
+color: white;
+margin-top: 20px;
+font-size: 25px;
+
+}
+
+.branchl{
+color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.crddiv{
+
+width: 1200px;
+height: 2200px;
+/* border: 2px white solid; */
+align-items: center;
+margin: auto;
+
+
+
+
+}
+
+.mcard{
+width: 300px;
+/* border: 2px white solid; */
+/* background-color: aqua; */
+position: relative;
+top: 400px;
+left: 80px;
+color: white;
+
+}
+
+.mcard img{
+
+width: 300px;
+border-radius: 5px;
+}
+
+
+.city{
+
+letter-spacing: 5px;
+color: #ED1C24;
+font-size: 12px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.express h3{
+
+    font-size: 20px;
+text-align: center;
+margin-top: 10px;
+
+
+}
+
+.adress{
+
+text-align: center;
+
+}
+.phone{
+
+    text-align: center;
+}
+
+.btn{
+
+    position: relative;
+top: 10px;
+left: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mcard2{
+    width: 300px;
+    /* border: 2px white solid; */
+    /* background-color: aqua; */
+    position: relative;
+    top: -200pxpx;
+    left: 410px;
+    color: white;
+    display: inline-block;
+    
+    }
+    
+    .mcard2 img{
+    
+    width: 300px;
+    border-radius: 5px;
+    }
+    
+    
+    .city{
+    
+    letter-spacing: 5px;
+    color: #ED1C24;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+
+    
+    }
+    
+    .express h3{
+    
+        font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+    }
+    
+    .adress{
+    
+    text-align: center;
+    
+    }
+    .phone{
+    
+        text-align: center;
+    }
+    
+    .btn{
+    
+        position: relative;
+    top: 10px;
+    left: 20px;
+    
+    }
+    
+
+
+    .mcard3{
+        width: 300px;
+        /* border: 2px white solid;
+        background-color: aqua; */
+        position: relative;
+        top: -396px;
+        left: 740px;
+        
+        color: white;
+    
+        }
+        
+        .mcard3 img{
+        
+        width: 300px;
+        border-radius: 5px;
+        }
+        
+        
+        .city{
+        
+        letter-spacing: 5px;
+        color: #ED1C24;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 10px;
+    
+        
+        }
+        
+        .express h3{
+        
+            font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        
+        
+        }
+        
+        .adress{
+        
+        text-align: center;
+        
+        }
+        .phone{
+        
+            text-align: center;
+        }
+        
+        .btn{
+        
+            position: relative;
+        top: 10px;
+        left: 20px;
+        
+        }
+    
+
+
+
+
+
+
+
+
+        .mcard4{
+            width: 300px;
+            /* border: 2px white solid; */
+            /* background-color: aqua; */
+            position: relative;
+            bottom: 340px;
+            left: 80px;
+            color: white;
+            
+            }
+            
+            .mcard4 img{
+            
+            width: 300px;
+            border-radius: 5px;
+            }
+            
+            
+            .city{
+            
+            letter-spacing: 5px;
+            color: #ED1C24;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 10px;
+            
+            }
+            
+            .express h3{
+            
+                font-size: 20px;
+            text-align: center;
+            margin-top: 10px;
+            
+            
+            }
+            
+            .adress{
+            
+            text-align: center;
+            
+            }
+            .phone{
+            
+                text-align: center;
+            }
+            
+            .btn{
+            
+                position: relative;
+            top: 10px;
+            left: 20px;
+            
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            .mcard5{
+                width: 300px;
+                /* border: 2px white solid; */
+                /* background-color: aqua; */
+                position: relative;
+                bottom: 730px;
+                left: 410px;
+                color: white;
+                display: inline-block;
+                
+                }
+                
+                .mcard5 img{
+                
+                width: 300px;
+                border-radius: 5px;
+                }
+                
+                
+                .city{
+                
+                letter-spacing: 5px;
+                color: #ED1C24;
+                font-size: 12px;
+                text-align: center;
+                margin-top: 10px;
+            
+                
+                }
+                
+                .express h3{
+                
+                    font-size: 20px;
+                text-align: center;
+                margin-top: 10px;
+                
+                
+                }
+                
+                .adress{
+                
+                text-align: center;
+                
+                }
+                .phone{
+                
+                    text-align: center;
+                }
+                
+                .btn{
+                
+                    position: relative;
+                top: 10px;
+                left: 20px;
+                
+                }
+                
+            
+            
+                .mcard6{
+                    width: 300px;
+                    /* border: 2px white solid;
+                    background-color: aqua; */
+                    position: relative;
+                    bottom: 1120px;
+                    left: 740px;
+                    
+                    color: white;
+                
+                    }
+                    
+                    .mcard6 img{
+                    
+                    width: 300px;
+                    border-radius: 5px;
+                    }
+                    
+                    
+                    .city{
+                    
+                    letter-spacing: 5px;
+                    color: #ED1C24;
+                    font-size: 12px;
+                    text-align: center;
+                    margin-top: 10px;
+                
+                    
+                    }
+                    
+                    .express h3{
+                    
+                        font-size: 20px;
+                    text-align: center;
+                    margin-top: 10px;
+                    
+                    
+                    }
+                    
+                    .adress{
+                    
+                    text-align: center;
+                    
+                    }
+                    .phone{
+                    
+                        text-align: center;
+                    }
+                    
+                    .btn{
+                    
+                        position: relative;
+                    top: 10px;
+                    left: 20px;
+                    
+                    }
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    .mcard7{
+                        width: 300px;
+                        /* border: 2px white solid; */
+                        /* background-color: aqua; */
+                        position: relative;
+                        bottom: 1090px;
+                        left: 80px;
+                        color: white;
+                        
+                        }
+                        
+                        .mcard7 img{
+                        
+                        width: 300px;
+                        border-radius: 5px;
+                        }
+                        
+                        
+                        .city{
+                        
+                        letter-spacing: 5px;
+                        color: #ED1C24;
+                        font-size: 12px;
+                        text-align: center;
+                        margin-top: 10px;
+                        
+                        }
+                        
+                        .express h3{
+                        
+                            font-size: 20px;
+                        text-align: center;
+                        margin-top: 10px;
+                        
+                        
+                        }
+                        
+                        .adress{
+                        
+                        text-align: center;
+                        
+                        
+                        }
+                        .phone{
+                        
+                            text-align: center;
+                        }
+                        
+                        .btn{
+                        
+                            position: relative;
+                        top: 10px;
+                        left: 20px;
+                        
+                        }
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        .mcard8{
+                            width: 300px;
+                            /* border: 2px white solid; */
+                            /* background-color: aqua; */
+                            position: relative;
+                            bottom: 1480px;
+                            left: 410px;
+                            color: white;
+                            display: inline-block;
+                            
+                            }
+                            
+                            .mcard8 img{
+                            
+                            width: 300px;
+                            border-radius: 5px;
+                            }
+                            
+                            
+                            .city{
+                            
+                            letter-spacing: 5px;
+                            color: #ED1C24;
+                            font-size: 12px;
+                            text-align: center;
+                            margin-top: 10px;
+                        
+                            
+                            }
+                            
+                            .express h3{
+                            
+                                font-size: 20px;
+                            text-align: center;
+                            margin-top: 10px;
+                            
+                            
+                            }
+                            
+                            .adress{
+                            
+                            text-align: center;
+                            
+                            }
+                            .phone{
+                            
+                                text-align: center;
+                            }
+                            
+                            .btn{
+                            
+                                position: relative;
+                            top: 10px;
+                            left: 20px;
+                            
+                            }
+                            
+                        
+                        
+                            .mcard9{
+                                width: 300px;
+                                /* border: 2px white solid;
+                                background-color: aqua; */
+                                position: relative;
+                                bottom: 1870px;
+                                left: 740px;
+                                
+                                color: white;
+                            
+                                }
+                                
+                                .mcard9 img{
+                                
+                                width: 300px;
+                                border-radius: 5px;
+                                }
+                                
+                                
+                                .city{
+                                
+                                letter-spacing: 5px;
+                                color: #ED1C24;
+                                font-size: 12px;
+                                text-align: center;
+                                margin-top: 10px;
+                            
+                                
+                                }
+                                
+                                .express h3{
+                                
+                                    font-size: 20px;
+                                text-align: center;
+                                margin-top: 10px;
+                                
+                                
+                                }
+                                
+                                .adress{
+                                
+                                text-align: center;
+                                
+                                }
+                                .phone{
+                                
+                                    text-align: center;
+                                }
+                                
+                                .btn{
+                                
+                                    position: relative;
+                                top: 10px;
+                                left: 20px;
+                                
+                                }
+                        
+                                .mcard10{
+                                    width: 300px;
+                                    /* border: 2px white solid;
+                                    background-color: aqua; */
+                                    position: relative;
+                                    bottom: 1820px;
+                                    left: 400px;
+                                    
+                                    color: white;
+                                
+                                    }
+                                    
+                                    .mcard10 img{
+                                    
+                                    width: 300px;
+                                    height: 180px;
+                                    border-radius: 5px;
+                                    }
+                                    
+                                    
+                                    .city{
+                                    
+                                    letter-spacing: 5px;
+                                    color: #ED1C24;
+                                    font-size: 12px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                
+                                    
+                                    }
+                                    
+                                    .express h3{
+                                    
+                                        font-size: 20px;
+                                    text-align: center;
+                                    margin-top: 10px;
+                                    
+                                    
+                                    }
+                                    
+                                    .adress{
+                                    
+                                    text-align: center;
+                                    font-size: 13px;
+                                    }
+                                    .phone{
+                                    
+                                        text-align: center;
+                                    }
+                                    
+                                    .btn{
+                                    
+                                        position: relative;
+                                    top: 10px;
+                                    left: 20px;
+                                    
+                                    }
+                            
+   .mnbox{
+width: 1344px;
+height: 600px;
+background-color: #0F0F0F;
+/* border: 2px white solid; */
+margin: auto;
+/* text-align: center; */
+
+}
+.headg{
+
+color: white;
+padding: 30px;
+text-align: center;
+font-size: 30px;
+width: 390px;
+position: relative;
+left: 350px;
+}
+
+.gujr{
+
+width: 600px;
+display: inline-block;
+border-radius: 8px;
+}
+.cba{
+    width: 600px;
+    height: 300px;
+    
+    /* border: 2px white solid; */
+    color: white;
+    display: inline-block;
+position: relative;
+bottom: 70px;
+left: 20px;
+}
+.cityg{
+
+color: #ED1C24;
+letter-spacing: 5px;
+margin-bottom: 10px;
+}
+.branchg{
+font-size: 30px;
+font-weight: bolder;
+margin-bottom: 10px;
+}
+.adres{
+
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.phn{
+margin-bottom: 10px;
+margin-left: 10px;
+}
+
+.btng button{
+ border-style: none;
+ width: 160px;
+ height: 50px;
+margin-left: 10px;
+border-radius: 35px;
+background-color: #28A745;
+color: white;
+border: 2px white solid;
+margin-top: 60px;
+}
+.btng button:hover{
+border: 2px #28A745 solid;
+background-color:#0F0F0F;
+transition: 0.5s;
+
+}
+
+.opening{
+width: 1344px;
+height: 980px;
+/* border: 2px white solid; */
+
+}
+.frenchiseopen{
+ text-align: center;
+color: white;
+font-size: 40px;
+margin-top: 30px;
+font-weight: bolder;
+}
+.frenchiseopen2{
+    text-align: center;
+   color: white;
+   font-size: 40px;
+   margin-top: 10px;
+   font-weight: bolder;
+   }
+
+
+
+   .white_1 {
+width: 360px;
+height: 230px;
+/* border: 2px white solid; */
+background-color: white;
+margin-top: 40px;
+margin-left: 60px;
+border-radius: 15px;
+align-items: center;
+display: inline-block;
+}
+.imgmap{
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.imgmap img{
+width: 50px;
+}
+.coming{
+
+ color: #ED1C24; 
+ letter-spacing: 8px;
+ font-size: 13px;
+ text-align: center;  
+}
+.restname{
+    /* width: 220px; */
+font-size: 20px;
+color:black;
+margin-top: 20px;
+text-align: center;
+font-size: 20px;
+font-weight: bolder;
+}
+.restname2{
+    /* width: 220px; */
+font-size: 20px;
+color: black;
+margin-top: 10px;
+text-align: center;
+font-size: 20px;
+font-weight: lighter;
+}
+.restname3{
+    /* width: 220px; */
+font-size: 20px;
+color:black;
+margin-top: 10px;
+text-align: center;
+font-size: 20px;
+font-weight: lighter;
+}
+
+.white_2 {
+    width: 360px;
+    height: 230px;
+    /* border: 2px white solid; */
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 15px;
+    position: relative;
+    left: 210px;
+    display: inline-block;
+    }
+    .imgmap{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .imgmap img{
+    width: 50px;
+    }
+    .coming{
+    
+     color: #ED1C24; 
+     letter-spacing: 8px;
+     font-size: 13px;
+     text-align: center;  
+    }
+    .restname{
+        /* width: 220px; */
+    font-size: 20px;
+    color:black;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    }
+    .restname2{
+        /* width: 220px; */
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    }
+    .restname3{
+        /* width: 220px; */
+    font-size: 20px;
+    color:black;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+    }
+    .img5{
+
+width: 1344px;
+height: 360px;
+/* border: 2px white solid; */
+text-align: center;
+}
+.hdiv{
+
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.imgg img{
+
+width: 230px;
+margin-left: 10px;
+}
+.footer{
+
+width: 1344px;
+height: 480px;
+/* border: 2px white solid; */
+background-color: #0F0F0F;
+
+}
+.logof{
+
+    width: 370px;
+    height: 60%;
+    /* border: 2px white solid; */
+    margin-top: 70px;
+    margin-left: 28px;
+    display: inline-block;
+}
+.paraf1{
+margin-top: 30px;
+    color: white;
+    font-size: 15px;
+
+}
+.para2{
+    margin-top: 10px;
+        color: white;
+        font-size: 15px;
+    
+    }
+    .sitelink{
+
+        width: 200px;
+        height: 60%;
+        /* border: 2px white solid; */
+        display: inline-block;
+        margin-top: 70px;
+        margin-left: 28px;
+        position: relative;
+        bottom: 50px;
+        left: 20px;
+      
+    }
+    .hhed h5{
+
+color: white;
+font-size: 20px;
+font-weight: bolder;
+
+}
+.home{
+
+
+color: white;
+margin-top: 20px;
+
+}
+.about{
+
+  
+    color: white;
+    margin-top: 20px;
+    
+    }
+.publication{
+
+  
+        color: white;
+        margin-top: 20px;
+}
+
+.get{
+
+  
+    color: white;
+    margin-top: 20px;
+    
+    }
+    
+
+
+
+.feedback{
+
+      color: white;
+    margin-top: 20px;
+    
+    }
+    
+    .contact_us{
+
+        width: 260px;
+        height: 60%;
+        /* border: 2px white solid; */
+        display: inline-block;
+        margin-top: 70px;
+        margin-left: 28px;
+        position: relative;
+        bottom: 30px;
+        left: 20px;
+      
+    }
+    .contact_us h5{
+
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+   .pno pre{
+margin-top: 10px;
+color: white;
+line-height: 30px;
+
+
+   }        
+   .follow{
+
+    width: 200px;
+    height: 60%;
+    /* border: 2px white solid; */
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 28px;
+    position: relative;
+    bottom: 55px;
+    left: 20px;
+  
+}
+.follow h5{
+
+color: white;
+font-size: 20px;
+font-weight: bolder;
+}
+.fb{
+
+    width: 30px;
+    padding-right: 8px;
+    margin-top: 20px;
+}
+.gicon{
+    width: 150px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
